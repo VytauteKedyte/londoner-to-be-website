@@ -1,4 +1,4 @@
-# london-newbie-website
+# londoner-to-be-website
 A website to help Londoners-to-be to choose where to live
 
 This is a project undertaken by Clare, Rachel, Shirley and VK as part of the Code First: Girls beginner course in Spring 2018.
