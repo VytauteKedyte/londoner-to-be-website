@@ -1,42 +1,27 @@
-
-h1 {
+html{
   text-align: center;
-  font-family: Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 3em;
+  font-family: 'Arvo';
+}
+.container{
+  position: relative;
+  text-align: center;
+  color: black;
+  opacity: 1;
 }
 
-.image-cropper {
-    width: 600px;
-    height: 600px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
+.container img{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /*For IE8 and earlier*/
+  border-radius: 50%;
+  width: auto;
 
-img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
 }
-
 .enter {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
-  margin: 0 auto;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    color: black;
-    text-align: center;
-    background: white;
-    margin:0 auto;
-    padding: 10px 10px 10px 10px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(360, 360, 360, 0.8);
+  padding: 10px;
+  border-radius: 15px;
 }
