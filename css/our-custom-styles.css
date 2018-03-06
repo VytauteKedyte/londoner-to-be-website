@@ -1,12 +1,16 @@
 html{
   text-align: center;
-  font-family: 'Arvo';
+  font-family: 'Lato';
+  background-color: white;
 }
+
+.welcome{
+  font-size: x-large;
+}
+
 .container{
   position: relative;
   text-align: center;
-  color: black;
-  opacity: 1;
 }
 
 .container img{
@@ -14,8 +18,9 @@ html{
   filter: alpha(opacity=50); /*For IE8 and earlier*/
   border-radius: 50%;
   width: auto;
-
+  max-width: 500px;
 }
+
 .enter {
   position: absolute;
   top: 50%;
@@ -24,4 +29,13 @@ html{
   background-color: rgba(360, 360, 360, 0.8);
   padding: 10px;
   border-radius: 15px;
+  font-size: large;
+  font-family: 'Merriweather';
 }
+
+a:visited{color:black
+  }
+a:link{color:inherit
+  }
+a:hover{color:grey; font-size: x-large;
+  }
