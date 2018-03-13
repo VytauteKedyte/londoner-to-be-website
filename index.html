@@ -5,6 +5,7 @@
   <link href='css/our-custom-styles.css' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <header>
   <div class="welcome">
@@ -12,10 +13,45 @@
   </div>
 
   <div class="container">
-    <img src="images/london_2.jpg" alt="Map of London"/>
+    <img src="images/london_2.jpg" alt="Map of London" class="map"/>
 
-    <div class="enter"> <a href="https://www.airbnb.co.uk/"> <strong><em>Make yourself at home (but don't put your feet on the table)</stong></em></a></div>
+
+    <div class="enter"> <a href="https://www.airbnb.co.uk/" class="enter-text"><strong><em>Make yourself at home</stong></em></a></div>
+
   </div>
 
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
 </header>
+
+<body>
+<button id="myBtn"> Subscribe </button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span> <!--use &times instead of X for a close button-->
+      <p> Lorem ipsum </p>
+    <!-- <form action="#">
+      <div class="container2"
+        <h2> <em>Tailored, weekly emails for Londoners-to-be</em> </h2>
+      </div>
+
+      <div class="container2">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email" name="mail" required>
+      </div>
+
+      <div class="container2">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form> -->
+  </div>
+<script src="script.js"></script>
+</div>
+</body>
 </html>
