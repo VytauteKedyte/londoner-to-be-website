@@ -163,3 +163,219 @@ input[type=submit]:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*VK added the below for the carousel styling*/
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  max-height: 900px;
+  max-width:400px;
+  padding-bottom:95px;
+}
+
+#myCarousel {
+  position: relative;
+  overflow: hidden;
+  max-height: 900px;
+  max-width:1200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.text-block {
+    background-color:rgba(192,192,192,0.3);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+}
+
+.text-summary {
+    background-color:rgba(192,192,192,0.3);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 315px;
+}
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: inherit;
+  background-color: #fffff;
+}
+
+.jumbotron h1 {
+font-size: 36px;
+}
+
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+
+.summary {
+  text-align: left;
+}
+
+ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.parks_lots {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/tree_bw.png'),
+                    url('images/tree_bw.png'),
+                    url('images/tree_bw.png');
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top,
+                       120px top;
+  background-size: 10px auto,
+                   10px auto,
+                   10px auto;
+}
+
+li.parks_ave {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/tree_bw.png'),
+                    url('images/tree_bw.png');
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top;
+  background-size: 10px auto,
+                   10px auto;
+}
+
+li.parks_low {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/tree_bw.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 10px auto;
+}
+
+li.crime_lots {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/mask.png'),
+                    url('images/mask.png'),
+                    url('images/mask.png');
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top,
+                       120px top;
+  background-size: 10px auto,
+                   10px auto,
+                   10px auto;
+}
+
+li.crime_ave {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/mask.png'),
+                    url('images/mask.png');
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top;
+  background-size: 10px auto,
+                   10px auto;
+}
+
+li.crime_low {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/mask.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 10px auto;
+}
+
+li.rent_lots {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/pound.png'),
+                    url('images/pound.png'),
+                    url('images/pound.png');
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top,
+                       120px top;
+  background-size: 10px auto,
+                   10px auto,
+                   10px auto;
+}
+
+li.rent_ave {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/pound.png'),
+                    url('images/pound.png');
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-position: left top,
+                       60px top;
+  background-size: 10px auto,
+                   10px auto;
+}
+
+li.rent_low {
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+  display: block;
+  background-image: url('images/pound.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 10px auto;
+}
