@@ -2,36 +2,50 @@ html {
   text-align: center;
   font-family: 'Lato';
   background-color: white;
-  background-image: url('images/london_3.jpg')/*why is this not working????*/;
+  /*background-image: url('../images/london_3.jpg')/*why is this not working????*/;
 }
 
-.welcome {
-  font-size: x-large;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-}
-
-.map {
+/*Map and enter link*/
+.img-responsive {
   opacity: 0.7;
   filter: alpha(opacity=70); /*For IE8 and earlier*/
-  border-radius: 50%;
-  width: auto;
-  max-width: 500px;
 }
 
-.enter {
+.thumbnail {
+  position: relative;
+}
+
+.caption {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(360, 360, 360, 0.8);
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+/*Social Media Icons*/
+.btn-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.btn-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.btn-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/*.enter {
+
   padding: 10px;
   border-radius: 15px;
   font-size: large;
   font-family: 'Merriweather';
+  background-color: rgba(360, 360, 360, 0.8);
 }
 
 .enter-text:visited {
@@ -60,7 +74,7 @@ html {
   transition: all 0.3s ease;
   color: white;
   font-size: 15px;
-  border-radius: 25%;
+  border-radius: 50%;
   opacity: 0.4;
 }
 
@@ -68,35 +82,6 @@ html {
   opacity: 1;
 }
 
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.google {
-  background: #dd4b39;
-  color: white;
-}
-
-.instagram {
-  background: #125688;
-  color: white;
-}
-
-.pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.youtube {
-  background: #bb0000;
-  color: white;
-}
 
 
 
@@ -127,7 +112,7 @@ input[type=submit]:hover {
   font-size: small;
   padding-top: 30px;
 }
-*/
+
 
 .modal {
   display: none;
@@ -162,4 +147,4 @@ input[type=submit]:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+} */
