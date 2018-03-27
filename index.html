@@ -1,57 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Welcome to London</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='css/bootstrap-theme.css' rel='stylesheet'>
+  <link href='css/bootstrap.css' rel='stylesheet'>
   <link href='css/our-custom-styles.css' rel='stylesheet'>
+  <link href='css/bootstrap-social.css' rel='stylesheet'>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5QP6VN7');</script>
+  <!-- End Google Tag Manager -->
+
 </head>
-<header>
-  <div class="welcome">
-    <h1> Welcome to London </h1>
-  </div>
-
-  <div class="container">
-    <img src="images/london_2.jpg" alt="Map of London" class="map"/>
-
-
-    <div class="enter"> <a href="https://www.airbnb.co.uk/" class="enter-text"><strong><em>Make yourself at home</stong></em></a></div>
-
-  </div>
-
-  <div class="icon-bar">
-    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    <a href="#" class="google"><i class="fa fa-google"></i></a>
-    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-    <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
-    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-  </div>
-</header>
 
 <body>
-<button id="myBtn"> Subscribe </button>
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span> <!--use &times instead of X for a close button-->
-      <p> Lorem ipsum </p>
-    <!-- <form action="#">
-      <div class="container2"
-        <h2> <em>Tailored, weekly emails for Londoners-to-be</em> </h2>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QP6VN7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+   <div class="container text-center">
+
+     <nav class="navbar navbar-default">
+       <div class="container-fluid">
+<!--Brand and toggling-->
+         <div class="navbar-header">
+         <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand ldn-brand" href='../londonder-to-be-website/index.html'>Londoner To Be</a>
+        </div>
+<!--Collect other content for toggling-->
+      <div class="navbar-left">
+          <button class="btn btn-info navbar-btn" data-toggle="modal" data-target="#myModal">Subscribe</button>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Discover <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Take the quiz</a></li>
+            <li><a href="#">Explore London</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      </div>
+    </nav>
+
+<!--Map and enter link-->
+     <div class="row" id="box-search">
+       <div class="thumbnail">
+         <div>
+           <h1> Welcome to London </h1>
+         </div>
+           <img class="img-responsive center-block img-circle" src="images/london_2.jpg" alt="Map of London"/>
+         <div class="caption center-block">
+           <a class="btn btn-default" href="https://www.airbnb.co.uk/"  role="button">
+             <strong><em>Make yourself at home</em></strong>
+           </a>
+         </div>
+       </div>
       </div>
 
-      <div class="container2">
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="text" placeholder="Email" name="mail" required>
+<!--Social media buttons-->
+    <div class="row">
+      <div class="icon-bar" id='social-buttons'>
+          <button class="btn btn-social-icon btn-facebook">
+            <span class="fa fa-facebook"></span>
+          </button>
+          <button class="btn btn-social-icon btn-twitter">
+            <span class="fa fa-twitter"></span>
+          </button>
+          <button class="btn btn-social-icon btn-instagram">
+            <span class="fa fa-instagram"></span>
+          </button>
       </div>
+    </div>
 
-      <div class="container2">
-        <input type="submit" value="Subscribe">
-      </div>
-    </form> -->
   </div>
-<script src="script.js"></script>
+
+  <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Sign up for the full Londoner experience</h4>
+      </div>
+      <div class="modal-body">
+            <form action="#">
+              <div class="container2"
+                <h2> <em>Tailored, weekly emails for Londoners-to-be</em> </h2>
+              </div>
+
+              <div class="container2">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email" name="mail" required>
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-submit" data-dismiss="modal">Subscribe</button>
+      </div>
+    </div>
+  </div>
 </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="scripts/bootstrap.js"></script>
 </body>
+
+    <!--  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="google"><i class="fa fa-google"></i></a>
+      <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div> -->
+
+
+
+  <!--<body>
+    <button id="myBtn"> Subscribe </button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span> <!--use &times instead of X for a close button-->
+        <!--  <p> Lorem ipsum </p>
+            <!-- <form action="#">
+              <div class="container2"
+                <h2> <em>Tailored, weekly emails for Londoners-to-be</em> </h2>
+              </div>
+
+              <div class="container2">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email" name="mail" required>
+              </div>
+
+              <div class="container2">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form> -->
+      <!--  </div>
+      <script src="script.js"></script>
+    </div>
+  </body> -->
+
 </html>
