@@ -12,7 +12,10 @@ html {
 
 /*Navbar*/
 .btn-info {
+}
 
+.container2 {
+  font-family: 'Merriweather';
 }
 
 /*Map and enter link*/
@@ -27,12 +30,16 @@ html {
 
 .caption {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 0;
   width: 100%;
+  font-family: 'Merriweather';
 }
 
 /*Social Media Icons*/
+.icon-bar {
+  margin-bottom: 10px;
+}
 .btn-facebook {
   background: #3B5998;
   color: white;
