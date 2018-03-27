@@ -2,7 +2,17 @@ html {
   text-align: center;
   font-family: 'Lato';
   background-color: white;
-  /*background-image: url('../images/london_3.jpg')/*why is this not working????*/;
+  background: url('../images/london_5.jpg') no-repeat center center fixed;
+}
+
+.bg-1 {
+    background-image: url('../images/london_5.jpg');
+    background-size: cover;
+  }
+
+/*Navbar*/
+.btn-info {
+
 }
 
 /*Map and enter link*/
