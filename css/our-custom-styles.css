@@ -2,7 +2,6 @@ html {
   text-align: center;
   font-family: 'Lato';
   background-color: white;
-  background: url('../images/london_5.jpg') no-repeat center center fixed;
 }
 
 .bg-1 {
@@ -11,14 +10,21 @@ html {
   }
 
 /*Navbar*/
+
 .btn-info {
 }
 
 .container2 {
   font-family: 'Merriweather';
+  color: #404040;
 }
 
 /*Map and enter link*/
+
+h1 {
+  color: #404040;
+}
+
 .img-responsive {
   opacity: 0.7;
   filter: alpha(opacity=70); /*For IE8 and earlier*/
@@ -34,6 +40,7 @@ html {
   left: 0;
   width: 100%;
   font-family: 'Merriweather';
+  color: #404040;
 }
 
 /*Social Media Icons*/
