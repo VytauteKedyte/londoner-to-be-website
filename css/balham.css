@@ -1,5 +1,5 @@
 #leftHalf {
-top: 0px;
+   top: relative;
    width: 50%;
    position: absolute;
    left: 0px;
