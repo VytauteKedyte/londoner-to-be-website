@@ -1,6 +1,6 @@
 #leftHalf {
-top: 0px;
-   width: 40%;
+   top: relative;
+   width: 50%;
    position: absolute;
    left: 0px;
    height: 100%;
@@ -26,7 +26,7 @@ top: 0px;
 
 #rightHalf {
 font-family: 'Lato';
-   width: 59%;
+   width: 49%;
    position: absolute;
    right: 0px;
    height: 100%;
