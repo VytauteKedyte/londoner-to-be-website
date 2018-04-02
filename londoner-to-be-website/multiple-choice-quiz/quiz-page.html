@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple Choice Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='../css/bootstrap-theme.css' rel='stylesheet'>
+  <link href='../css/bootstrap.css' rel='stylesheet'>
+  <link href='../css/bootstrap-social.css' rel='stylesheet'>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+
+
+  <link rel='stylesheet prefetch' href="../css/bootstrap.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/quiz-style.css">
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5QP6VN7');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QP6VN7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+<!--Brand and toggling-->
+    <div class="navbar-header">
+    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand ldn-brand" href='../index.html'>Londoner To Be</a>
+   </div>
+<!--Collect other content for toggling-->
+ <div class="navbar-left">
+     <button class="btn btn-info navbar-btn" data-toggle="modal" data-target="#myModal">Subscribe</button>
+ </div>
+ <ul class="nav navbar-nav navbar-right">
+   <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Discover <span class="caret"></span></a>
+     <ul class="dropdown-menu">
+       <li><a href="../multiple-choice-quiz/quiz-page.html">Take the quiz</a></li>
+       <li><a href="../results.html">Explore London</a></li>
+     </ul>
+   </li>
+ </ul>
+
+ </div>
+</nav>
+  <div class="row">
+    <div class="icon-bar" id='social-buttons'>
+        <button class="btn btn-social-icon btn-facebook">
+          <span class="fa fa-facebook"></span>
+        </button>
+        <button class="btn btn-social-icon btn-twitter">
+          <span class="fa fa-twitter"></span>
+        </button>
+        <button class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-instagram"></span>
+        </button>
+    </div>
+
+  <div class="cover">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6-lg" id="quiz">
+        <h1 id="quiz-name"></h1>
+        <button class="btn" id="prev-question-button"><i class="fa fa-arrow-left fa-2x"></i></button>
+        <button class="btn" id="next-question-button"><i class="fa fa-arrow-right fa-2x"></i></button>
+        <button class="btn" id="submit-button"><i class="fa fa-check fa-2x"></i></button>
+        <div id="quiz-results">
+          <p id="quiz-results-message"></p>
+          <p id="quiz-results-score"></p>
+          <div class="btn-group site-links">
+            <a href="../results.html" id=see-results>See your results</a>
+          </div>
+          <div class="btn-group site-links">
+            <a href="quiz-page.html" id=link-to-home>Return to start</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='js/index2.js'></script>
+  <script src="js/quiz-script.js"></script>
+
+    <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Sign up for the full Londoner experience</h4>
+        </div>
+        <div class="modal-body">
+              <form action="#">
+                <div class="container2"
+                  <h2> <em>Tailored, weekly emails for Londoners-to-be</em> </h2>
+                </div>
+
+                <div class="container2">
+                  <input type="text" placeholder="Name" name="name" required>
+                  <input type="text" placeholder="Email" name="mail" required>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-submit" data-dismiss="modal">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../scripts/bootstrap.js"></script>
+</body>
+
+</html>
