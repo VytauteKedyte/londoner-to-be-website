@@ -4,6 +4,8 @@
    position: absolute;
    left: 0px;
    height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
   -webkit-animation-name: background;
   -webkit-animation-duration: 5s;
   -webkit-animation-delay: 2s;
